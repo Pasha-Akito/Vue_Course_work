@@ -2,7 +2,8 @@
   <section>
     <h2>My Friends</h2>
     <ul>
-      <li></li>
+        <friend-contact></friend-contact>
+        <friend-contact></friend-contact>
     </ul>
   </section>
 </template>
@@ -12,12 +13,6 @@ export default {
   data() {
     return {
       friends: [
-        {
-          id: "manuel",
-          name: "Manuel Lorenz",
-          phone: "0123 45678 90",
-          email: "manuel@localhost.com",
-        },
         {
           id: "julie",
           name: "Julie Jones",
@@ -29,3 +24,7 @@ export default {
   },
 };
 </script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+</style>
